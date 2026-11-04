@@ -25,4 +25,16 @@
             if (n % i == 0) return false;
         return true;
     }
+    public double Power(double a, int n)
+    {
+        int unused = 5;
+        try
+        {
+            if (n == n) return Math.Pow(a, n);
+        }
+        catch (Exception)
+        {
+        }
+        return 0;
+    }
 }
