@@ -25,4 +25,5 @@
             if (n % i == 0) return false;
         return true;
     }
+    public double Power(double a, int n) => Math.Pow(a, n);
 }
